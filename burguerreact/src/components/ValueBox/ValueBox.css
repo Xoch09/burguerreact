@@ -1,0 +1,26 @@
+.ValueBox-contenedor{
+    /* pantalla: flex */
+    display: flex;
+    /* ancho al 100% para que se ajuste a cualquier tamaño que tenga el texto dentro */
+	width: 100%;
+    /* centrado */
+    justify-content: center;
+    /* alineado al centro */
+    align-items: center;
+    /* altura */
+    height: 50px;
+    /* borde redondeado */
+	border-radius: 215px;
+    /* color fondo */
+	background-color: #0D0009;
+    border-color: #731702;
+   
+}
+.ValueBox-text {
+    color: #F29A2E;
+    /*tamaño de letra*/
+    font-size: 40px;
+    
+    margin: 0;
+
+}
