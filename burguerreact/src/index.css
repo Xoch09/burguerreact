@@ -1,5 +1,7 @@
+/*se importó el tipo de letra que afecta a todos los archivos*/
+@import url(https://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Jeju Hallasan', cursive;
   line-height: 1.5;
   font-weight: 400;
 
