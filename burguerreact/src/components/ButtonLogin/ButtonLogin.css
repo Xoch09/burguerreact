@@ -1,0 +1,25 @@
+.ButtonLogin-container{
+        width: 306px;
+        /* height: 81px; */
+        font-size: 80px;
+        color: #26031D;
+        /* padding: 5px 10px; */
+        /* font-weight: 400;
+        font-size: 80;
+        cursor: pointer;
+        transition: all 0.3s ease; */
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 26px;
+        /* border: 2px solid #d90429; */
+        background: #F29A2E;
+       
+      }
+      /* .css-button-rounded--red:hover {
+        background: #fff;
+        color: #d90429
+      } */
+
+    
+}
