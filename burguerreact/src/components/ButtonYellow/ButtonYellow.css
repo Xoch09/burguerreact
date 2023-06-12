@@ -1,0 +1,29 @@
+.ButtonYellow-container{
+    /* pantalla: flex */
+    display: flex;
+    /* ancho al 100% para que se ajuste a cualquier tamaño que tenga el texto dentro */
+	/*width: 100%;
+    /* centrado */
+    justify-content: center;
+    /* alineado al centro */
+    align-items: center;
+    /* altura */
+    height: 50px;
+    /* borde redondeado */
+	border-radius: 215px;
+    /* color fondo */
+	background-color:#F29A2E;
+    border-color: 14px #731702;
+    width: 95.74px;
+    height: 33.53px;
+    left: 181.26px;
+    top: 1114.74px;
+}
+.ButtonYellow-text {
+    color: #26031D;
+    /*tamaño de letra*/
+    font-size: 15px;
+    
+    margin: 0;
+
+}
