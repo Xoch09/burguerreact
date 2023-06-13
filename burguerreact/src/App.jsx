@@ -9,6 +9,8 @@ import ButtonLogin from "./components/ButtonLogin/ButtonLogin";
 import ButtonBlack from "./components/ButtonBlack/ButtonBlack";
 import FormLogin from "./components/FormLogin/FormLogin";
 import ValueBoxProductos from "./components/ValueBoxProductos/ValueBoxProductos";
+import AddStaff from "./components/AddStaff/AddStaff"
+import UpdateStaff from "./components/UpdateStaff/UpdateStaff"
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,16 +41,22 @@ function App() {
         <ValueBoxProductos>Name</ValueBoxProductos>
         <ValueBoxProductos>Price</ValueBoxProductos>
         <ValueBoxProductos>DateEntry</ValueBoxProductos>
-        
-
         {/* botones */}
         <ButtonRed>Eliminar</ButtonRed>
         <ButtonYellow>Actualizar</ButtonYellow>
         <ButtonLogin>Login</ButtonLogin>
         <ButtonBlack>Productos</ButtonBlack>
         <ButtonBlack>Miembros del equipo</ButtonBlack>
+        {/* Formularios */}
         <FormLogin>Burguer Queen</FormLogin>
-       
+       <AddStaff>Agregar personal</AddStaff>
+       <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       <UpdateStaff>Actualizar personal</UpdateStaff>
 
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
