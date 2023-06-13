@@ -1,4 +1,4 @@
-.ValueBox-contenedor{
+.ValueBoxProductos-contenedor{
     /* pantalla: flex */
     display: flex;
     /* ancho al 100% para que se ajuste a cualquier tamaño que tenga el texto dentro */
@@ -13,11 +13,10 @@
 	border-radius: 215px;
     /* color fondo */
 	background-color: #0D0009;
-    border: 3px solid #731702; 
+    border: 3px solid#731702; 
     margin-bottom: 20px;
-   
 }
-.ValueBox-text {
+.ValueBoxProductos-text {
     color: #F29A2E;
     /*tamaño de letra*/
     font-size: 40px;
