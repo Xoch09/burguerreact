@@ -18,12 +18,13 @@
     height: 33.53px;
     left: 181.26px;
     top: 1114.74px;
+    margin-bottom: 40px;
 }
 .ButtonRed-text {
     color: #26031D;
     /*tamaño de letra*/
     font-size: 15px;
-    
+   
     margin: 0;
 
 }
