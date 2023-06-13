@@ -1,0 +1,62 @@
+.FormLogin-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinea el contenido en la parte superior */
+  width: 603px;
+  height: 673px;
+  margin: 0 auto;
+  border-radius: 40px; /* Agrega bordes redondeados */
+  background-color: #0d0009; /* Cambia el color de fondo */
+  border: 3px solid #f24405; /* Agrega un contorno */
+}
+
+.Titulo {
+  font-size: 64px;
+  font-weight: relative;
+  margin-bottom: 0px;
+  font-family: "Jeju Hallasan", cursive;
+  font-style: 40px;
+  color: #edba83;
+  /* Centra el título horizontalmente */
+  align-self: center;
+}
+
+.Subtitulo {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-family: "Jeju Hallasan", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #f29a2e;
+}
+
+input {
+  width: 438px;
+  padding: 10px;
+  margin-bottom: 60px; /* Ajusta el espacio entre cada input */
+}
+
+#buttonLogin {
+  display: flex;
+  width: 306px;
+  /* centrado */
+  justify-content: center;
+  /* alineado al centro */
+  align-items: center;
+  /* altura */
+  height: 81px;
+  /* borde redondeado */
+  border-radius: 100px;
+  /* color fondo */
+  background-color: orange; /* Cambia el color de fondo a naranja */
+  position: relative;
+  color: #26031d;
+  /* tamaño de letra */
+  font-size: 24px; /* Ajusta el tamaño de letra a 24px */
+  margin-bottom: 60px; /* Ajusta el espacio entre el último input y el botón */
+  margin-top: 20px; /* Ajusta el espacio entre el título y el primer input */
+  margin-left: auto;
+  margin-right: auto;
+}
