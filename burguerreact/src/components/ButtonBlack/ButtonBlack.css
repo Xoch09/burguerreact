@@ -1,25 +1,25 @@
-.ButtonLogin-container {
+.ButtonBlack-contenedor {
   /* pantalla: flex */
   display: flex;
   /* ancho al 100% para que se ajuste a cualquier tamaño que tenga el texto dentro */
   /* width: 100%; */
-  width: 306px;
+  width: 377px;
   /* centrado */
   justify-content: center;
   /* alineado al centro */
   align-items: center;
   /* altura */
-  height: 81px;
+  height: 138px;
   /* borde redondeado */
   border-radius: 100px;
   /* color fondo */
-  background-color: #f29a2e;
-  border-radius: 26px;
+  background-color: #0d0009;
+  border-radius: #731702;
   position: relative;
   /* .ButtonBlack-text { */
-  color: #26031d;
+  color: #f29a2e;
   /*tamaño de letra*/
-  font-size: 80px;
+  font-size: 40px;
   margin: 0;
   margin-bottom: 40px;
 }
