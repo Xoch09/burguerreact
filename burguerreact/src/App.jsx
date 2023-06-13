@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import ValueBox from './components/ValueBox/ValueBox'
-import './App.css'
-import ButtonRed from './components/ButtonRed/ButtonRed'
-import ButtonYellow from './components/ButtonYellow/ButtonYellow'
-import ButtonLogin from './components/ButtonLogin/ButtonLogin'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import ValueBox from "./components/ValueBox/ValueBox";
+import "./App.css";
+import ButtonRed from "./components/ButtonRed/ButtonRed";
+import ButtonYellow from "./components/ButtonYellow/ButtonYellow";
+import ButtonLogin from "./components/ButtonLogin/ButtonLogin";
+import ButtonBlack from "./components/ButtonBlack/ButtonBlack";
+import FormLogin from "./components/FormLogin/FormLogin";
+import ValueBoxProductos from "./components/ValueBoxProductos/ValueBoxProductos";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -29,22 +32,33 @@ function App() {
         <ValueBox>ID</ValueBox>
         <ValueBox>Email</ValueBox>
         <ValueBox>Rol</ValueBox>
+        <br />
+        <br />
+        <br />
+        <ValueBoxProductos>ID</ValueBoxProductos>
+        <ValueBoxProductos>Name</ValueBoxProductos>
+        <ValueBoxProductos>Price</ValueBoxProductos>
+        <ValueBoxProductos>DateEntry</ValueBoxProductos>
+        
+
         {/* botones */}
-        <ButtonRed><button>Eliminar</button></ButtonRed>
-        <ButtonYellow><button>Actualizar</button></ButtonYellow>
-        <ButtonLogin><button>Login</button></ButtonLogin>
-               
+        <ButtonRed>Eliminar</ButtonRed>
+        <ButtonYellow>Actualizar</ButtonYellow>
+        <ButtonLogin>Login</ButtonLogin>
+        <ButtonBlack>Productos</ButtonBlack>
+        <ButtonBlack>Miembros del equipo</ButtonBlack>
+        <FormLogin>Burguer Queen</FormLogin>
+       
+
         <p>
-          
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-      
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
