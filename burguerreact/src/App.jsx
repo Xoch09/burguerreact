@@ -9,8 +9,10 @@ import ButtonLogin from "./components/ButtonLogin/ButtonLogin";
 import ButtonBlack from "./components/ButtonBlack/ButtonBlack";
 import FormLogin from "./components/FormLogin/FormLogin";
 import ValueBoxProductos from "./components/ValueBoxProductos/ValueBoxProductos";
-import AddStaff from "./components/AddStaff/AddStaff"
-import UpdateStaff from "./components/UpdateStaff/UpdateStaff"
+import AddStaff from "./components/AddStaff/AddStaff";
+import UpdateStaff from "./components/UpdateStaff/UpdateStaff";
+
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +20,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+              
+                <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
@@ -57,7 +60,8 @@ function App() {
         <br />
         <br />
        <UpdateStaff>Actualizar personal</UpdateStaff>
-
+      
+      
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
