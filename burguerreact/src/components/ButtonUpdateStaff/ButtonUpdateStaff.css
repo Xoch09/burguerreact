@@ -1,0 +1,25 @@
+.ButtonUpdateStaff-container {
+  /* pantalla: flex */
+  display: flex;
+  /* ancho al 100% para que se ajuste a cualquier tamaño que tenga el texto dentro */
+  /* width: 100%; */
+  width: 306px;
+  /* centrado */
+  justify-content: center;
+  /* alineado al centro */
+  align-items: center;
+  /* altura */
+  height: 81px;
+  /* borde redondeado */
+  border-radius: 100px;
+  /* color fondo */
+  background-color: #f29a2e;
+  border-radius: 26px;
+  position: relative;
+  /* .ButtonBlack-text { */
+  color: #26031d;
+  /*tamaño de letra*/
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 40px;
+}

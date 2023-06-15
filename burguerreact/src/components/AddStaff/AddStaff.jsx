@@ -1,5 +1,6 @@
 /*Se importa el css, se crea una carpeta*/
 import "./AddStaff.css";
+import ButtonAddStaff from "../ButtonAddStaff/ButtonAddStaff";
 /*Un componente se usa para reutilizar y dividir, se identifica porque esta escrito con Mayuscula
 y retorna un HTML (JSX)*/
 function AddStaff({ children }) {
@@ -13,7 +14,8 @@ function AddStaff({ children }) {
       <input id="password" type="password" placeholder="Password"></input>
       <h2 className="Subtitulo">Asigna un ID</h2>
       <input id="id" type="password" placeholder="ID"></input>
-      <button id="buttonAdd" type="submit">Agregar</button>
+      {/* <button id="buttonAdd" type="submit">Agregar</button> */}
+      <ButtonAddStaff>Agregar</ButtonAddStaff>
     </form>
   );
 }

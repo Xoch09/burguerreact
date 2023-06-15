@@ -1,0 +1,39 @@
+/* En ViewsLogin.css */
+
+/* .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; */
+
+/* #Title {
+font-family: "Jeju Hallasan", cursive;
+font-weight: 400;
+font-size: 80px;
+line-height: center;
+display: flex;
+align-items: center;
+text-align: center;
+color: #F24405; */
+.ButtonLogin{
+  display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+.background-image {
+  background-image: url("https://cdn.pixabay.com/photo/2022/11/04/04/13/flaming-burger-7568981_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  /* width: 50%;
+  height: 50%; */
+  height: 200vh;
+  width: 100vw;
+}
+
+/* .login-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+} */

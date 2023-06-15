@@ -11,32 +11,36 @@ import FormLogin from "./components/FormLogin/FormLogin";
 import ValueBoxProductos from "./components/ValueBoxProductos/ValueBoxProductos";
 import AddStaff from "./components/AddStaff/AddStaff";
 import UpdateStaff from "./components/UpdateStaff/UpdateStaff";
+import ButtonAddStaff from "./components/ButtonAddStaff/ButtonAddStaff"
+import ButtonUpdateStaff from "./components/ButtonUpdateStaff/ButtonUpdateStaff";
+import ViewsLogin from "./Views/ViewsLogin"
+import ViewsWelcome from "./Views/ViewsWelcome";
 
 
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [count, setCount] = useState(0)
   return (
     <>
       <div>
-              
-                <a href="https://vitejs.dev" target="_blank">
+        {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </a> */}
       </div>
-      <h1>Vite + React</h1>
+      {/* <h1>Vite + React</h1> */}
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </button> */}
+
         {/* se llaman children 👈 y el texto se coloca en medio de los dos nombres del componente que sustituyen a un <div></div> */}
         <ValueBox>ID</ValueBox>
         <ValueBox>Email</ValueBox>
         <ValueBox>Rol</ValueBox>
+        <br />
         <br />
         <br />
         <br />
@@ -50,6 +54,8 @@ function App() {
         <ButtonLogin>Login</ButtonLogin>
         <ButtonBlack>Productos</ButtonBlack>
         <ButtonBlack>Miembros del equipo</ButtonBlack>
+       <ButtonAddStaff>Agregar</ButtonAddStaff>
+       <ButtonUpdateStaff>Actualizar</ButtonUpdateStaff>
         {/* Formularios */}
         <FormLogin>Burguer Queen</FormLogin>
        <AddStaff>Agregar personal</AddStaff>
@@ -60,11 +66,11 @@ function App() {
         <br />
         <br />
        <UpdateStaff>Actualizar personal</UpdateStaff>
-      
-      
-        <p>
+       <ViewsLogin></ViewsLogin>
+       <ViewsWelcome/>
+        {/* <p>
           Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        </p> */}
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
